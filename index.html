@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Janta Bakery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  
+  <header>
+    <div class="navbar">
+      <div class="logo">🍞 Janta Bakery</div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#journey">Our Journey</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Baked with Love,<br>Served with Joy</h1>
+      <p>Fresh breads, cakes, and pastries made every morning — just for you.</p>
+      <button onclick="orderNow()">Order Now</button>
+    </div>
+  </section>
+
+  
+  <section id="menu" class="menu-section">
+    <h2>Our Menu</h2>
+    <p class="section-subtitle">A little something for everyone</p>
+
+    <div class="menu-grid">
+
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop" alt="Chocolate Cake" />
+        <div class="menu-info">
+          <h3>Chocolate Cake</h3>
+          <p>Rich, moist layers of chocolate with creamy ganache frosting.</p>
+          <span class="price">₹350</span>
+        </div>
+      </div>
+
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&h=300&fit=crop" alt="Fresh Bread" />
+        <div class="menu-info">
+          <h3>Fresh Bread</h3>
+          <p>Soft, golden-crusted loaves baked fresh every morning.</p>
+          <span class="price">₹60</span>
+        </div>
+      </div>
+
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=400&h=300&fit=crop" alt="Butter Croissant" />
+        <div class="menu-info">
+          <h3>Butter Croissant</h3>
+          <p>Flaky, buttery layers that melt in your mouth.</p>
+          <span class="price">₹45</span>
+        </div>
+      </div>
+
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=400&h=300&fit=crop" alt="Fruit Pastry" />
+        <div class="menu-info">
+          <h3>Fruit Pastry</h3>
+          <p>Light sponge topped with fresh seasonal fruits and cream.</p>
+          <span class="price">₹120</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  
+  <section id="journey" class="journey-section">
+    <h2>Our Journey</h2>
+    <p class="section-subtitle">From a small kitchen to your hearts</p>
+
+    <div class="journey-content">
+      <div class="journey-text">
+        <p>
+          Janta Bakery was started in 1998 by Ramesh and Sunita Sharma in a small
+          room in the heart of our town. With just one oven and a dream, they began
+          baking bread for their neighbours every morning.
+        </p>
+        <p>
+          Word spread fast. People loved the warm, fresh smell of bread and the
+          honest taste of homemade cakes. Over the years, we grew — but we never
+          changed our recipe: simple ingredients, lots of care, and a big heart.
+        </p>
+        <p>
+          Today, Janta Bakery is a beloved name in the community. We still wake up
+          at 4 AM every day to make sure your morning starts with something special.
+          Because for us, baking is not just a business — it is our passion.
+        </p>
+      </div>
+      <div class="journey-image">
+        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=450&fit=crop" alt="Our Bakery" />
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p class="section-subtitle">We'd love to hear from you!</p>
+
+    <div class="contact-form">
+      <input type="text" id="name" placeholder="Your Name" />
+      <input type="email" id="email" placeholder="Your Email" />
+      <textarea id="message" placeholder="Your Message" rows="4"></textarea>
+      <button onclick="submitForm()">Send Message</button>
+      <p id="form-response"></p>
+    </div>
+  </section>
+
+ 
+  <footer>
+    <p>🍞 Janta Bakery &mdash; Baked with Love since 1998</p>
+    <p>123 Baker Street, Punjab, India &nbsp;|&nbsp; Phone: +91 98765 43210</p>
+    <p style="margin-top: 10px; font-size: 0.85rem; opacity: 0.7;">
+      &copy; 2025 Janta Bakery. All rights reserved.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
